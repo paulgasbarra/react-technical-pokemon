@@ -1,0 +1,21 @@
+.container {
+   display: flex;
+   justify-content: center;
+}
+
+.displayContainer {
+    width: 200px;
+    text-align: center;  
+}
+
+.displayImage {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.selected {
+    color: coral;
+}
+
