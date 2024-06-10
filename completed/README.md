@@ -2,7 +2,7 @@
 
 On the way home to Pallet Town, Ash dropped his pokedex.
 
-Some parts of it still work, but we need to restore this Pokedex before the big tournament. The 'dex should return a list of pokemon to choose from. Selecting on a pokemon will display it's name, picture and abilities in the sidebar.
+Some parts of it still work, but we need to restore this Pokedex before the big tournament. The 'dex should return a list of pokemon to choose from. Selecting on a pokemon will display its name, picture, and abilities in the sidebar.
 
 ### API Info
 
@@ -16,11 +16,11 @@ Some parts of it still work, but we need to restore this Pokedex before the big 
 - [ ] Create a "ListItem" component
 - [ ] Populate the Available Pokemon list
 - [ ] Enable users to click on a pokemon to set it as selected
-- [ ] Retrieve the pokemon from it's url
+- [ ] Retrieve the pokemon from its url
 - [ ] Display an image of the pokemon in the image component
 - [ ] Display the pokemon's name
 - [ ] Display a list of the pokemon's ability
 - [ ] Change the text color of the selected pokemon
-- [ ] Display the selected Pokemon to the left and the list to the right
+- [ ] Display the selected pokemon to the left and the list to the right
 
-All of your work should happen inside the foloder "Components"
+All of your work should happen inside the folder "Components"
