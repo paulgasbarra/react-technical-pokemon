@@ -4,7 +4,7 @@ import TodoContainer from "./components/TodoContainer";
 function App() {
   return (
     <>
-      <h1>Todos</h1>
+      <h2>Todos</h2>
       <TodoContainer />
     </>
   );
