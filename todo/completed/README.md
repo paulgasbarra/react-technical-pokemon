@@ -18,7 +18,7 @@ We've got the **R**ead and the **D**elete done. But we need help with the **C**r
    }
 ```
 
-- [ ] Allow users to "Edit a Todo"
+- [ ] Add functionality to the TodoItem component
   - [ ] it will allow you to toggle a todo as complete or incomplete
-  - [ ] it will allow you to toggle it to edit mode
-  - [ ] when in edit mode you may change the text of the todo
+  - [ ] it will allow you to toggle the todo into "edit" mode
+  - [ ] it will update the todo and the state after the "toggle" mode is off

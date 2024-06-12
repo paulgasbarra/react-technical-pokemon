@@ -13,37 +13,13 @@ const TodoContainer = () => {
       .then((response) => response.json())
       .then((data) => {
         setTodos(data.todos);
-        console.log(data);
       });
   }, []);
 
-  const addTodo = (text) => {
-    const newTodo = {
-      todo: text,
-      completed: false,
-      userId: 123,
-      id: Math.floor(Math.random() * 1000),
-    };
-    setTodos([...todos, newTodo]);
-  };
-
-  const updateTodo = (todo) => {
-    const updatedTodos = todos.map((t) => (t.id === todo.id ? todo : t));
-    setTodos(updatedTodos);
-  };
-
-  const deleteTodo = (todo) => {
-    const updatedTodos = todos.filter((t) => t.id != todo.id);
-    setTodos(updatedTodos);
-  };
-
   return (
     <>
-      <TodoForm onSubmit={addTodo} />
-      {todos &&
-        todos.map((t) => (
-          <TodoItem todo={t} updateTodo={updateTodo} deleteTodo={deleteTodo} />
-        ))}
+      <TodoForm />
+      {todos && todos.map((t) => <TodoItem todo={t} />)}
     </>
   );
 };
